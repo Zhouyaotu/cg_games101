@@ -1,2 +1,2 @@
-# cg_games101
-homeworks of gams101
+# CG_Learning_Games101
+homeworks of Gams101
