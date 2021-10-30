@@ -31,7 +31,12 @@ Vector3f refract(const Vector3f &I, const Vector3f &N, const float &ior)
     float cosi = clamp(-1, 1, dotProduct(I, N));
     float etai = 1, etat = ior;
     Vector3f n = N;
-    if (cosi < 0) { cosi = -cosi; } else { std::swap(etai, etat); n= -N; }
+    if 
+        (cosi < 0) { cosi = -cosi; } 
+    else 
+    {   std::swap(etai, etat); 
+        n= -N; 
+    }
     float eta = etai / etat;
     float k = 1 - eta * eta * (1 - cosi * cosi);
     return k < 0 ? 0 : eta * I + (eta * cosi - sqrtf(k)) * n;
