@@ -234,7 +234,8 @@ void Renderer::Render(const Scene& scene)
             // vector that passes through it.
             // Also, don't forget to multiply both of them with the variable *scale*, and
             // x (horizontal) variable with the *imageAspectRatio*            
-            x = i; y = j;
+            x = (2 * (i + 0.5) / (float)scene.width - 1) * scale * imageAspectRatio;
+            y = (1 - 2 * (j + 0.5) / (float)scene.height) * scale;
             Vector3f dir = Vector3f(x, y, -1); // Don't forget to normalize this direction!
             normalize(dir);
             framebuffer[m++] = castRay(eye_pos, dir, scene, 0);
