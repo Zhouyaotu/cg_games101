@@ -313,11 +313,6 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eig
                 {
                     point << x,y;
                     Vector3f pixel_color = fragment_shader(payload);
-                    /*
-                    vertex_shader_payload vertex_payload;
-                    vertex_payload.position = interpolated_shadingcoords;
-                    Vector3f pixel_color = vertex_shader(vertex_payload);
-                    */
                     set_pixel(point, pixel_color);
                     //std::cout << pixel_color << "\n" <<std::endl;
                     depth_buf[get_index(x,y)] = zp;
