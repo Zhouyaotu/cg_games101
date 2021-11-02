@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhou/cg_games101/Assignment5/Code/Renderer.cpp" "/home/zhou/cg_games101/Assignment5/Code/build/CMakeFiles/RayTracing.dir/Renderer.cpp.o"
-  "/home/zhou/cg_games101/Assignment5/Code/Scene.cpp" "/home/zhou/cg_games101/Assignment5/Code/build/CMakeFiles/RayTracing.dir/Scene.cpp.o"
-  "/home/zhou/cg_games101/Assignment5/Code/main.cpp" "/home/zhou/cg_games101/Assignment5/Code/build/CMakeFiles/RayTracing.dir/main.cpp.o"
+  "/home/zhou/codes/cg_games101/Assignment5/Code/Renderer.cpp" "/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/RayTracing.dir/Renderer.cpp.o"
+  "/home/zhou/codes/cg_games101/Assignment5/Code/Scene.cpp" "/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/RayTracing.dir/Scene.cpp.o"
+  "/home/zhou/codes/cg_games101/Assignment5/Code/main.cpp" "/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/RayTracing.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
