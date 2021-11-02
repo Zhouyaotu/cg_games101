@@ -1,0 +1,8 @@
+# ignore cmake file
+
+*~
+.#*
+*#
+
+# ignore build/
+build/
