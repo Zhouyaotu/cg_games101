@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/zhou/codes/cg_games101/A
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_260eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_260eb.dir/build.make CMakeFiles/cmTC_260eb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c879c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c879c.dir/build.make CMakeFiles/cmTC_c879c.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_260eb.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_260eb.dir/testCCompiler.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_260eb
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_260eb.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_260eb.dir/testCCompiler.c.o  -o cmTC_260eb 
+Building C object CMakeFiles/cmTC_c879c.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c879c.dir/testCCompiler.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c879c
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c879c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c879c.dir/testCCompiler.c.o  -o cmTC_c879c 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e8c62/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e8c62.dir/build.make CMakeFiles/cmTC_e8c62.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_46a8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46a8b.dir/build.make CMakeFiles/cmTC_46a8b.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o   -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e8c62
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c62.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o  -o cmTC_e8c62 
+Building C object CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o   -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_46a8b
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a8b.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o  -o cmTC_46a8b 
 使用内建 specs。
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper
@@ -59,9 +59,9 @@ COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper
 gcc 版本 7.4.0 (GCC) 
 COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8c62' '-mtune=generic' '-march=x86-64'
- /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp4FR7X.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e8c62 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../.. CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8c62' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46a8b' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOsvHcp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_46a8b /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../.. CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46a8b' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e8c62/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e8c62.dir/build.make CMakeFiles/cmTC_e8c62.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_46a8b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_46a8b.dir/build.make CMakeFiles/cmTC_46a8b.dir/build]
   ignore line: [make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o   -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e8c62]
-  ignore line: [/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c62.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o  -o cmTC_e8c62 ]
+  ignore line: [Building C object CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o   -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_46a8b]
+  ignore line: [/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a8b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o  -o cmTC_46a8b ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc 版本 7.4.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8c62' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp4FR7X.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e8c62 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../.. CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_46a8b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOsvHcp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_46a8b /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../.. CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
     arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccp4FR7X.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOsvHcp.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -104,7 +104,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e8c62] ==> ignore
+    arg [cmTC_46a8b] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../..]
-    arg [CMakeFiles/cmTC_e8c62.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_46a8b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -144,14 +144,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8a68a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8a68a.dir/build.make CMakeFiles/cmTC_8a68a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6c1d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c1d4.dir/build.make CMakeFiles/cmTC_6c1d4.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8a68a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8a68a.dir/feature_tests.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8a68a
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a68a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_8a68a.dir/feature_tests.c.o  -o cmTC_8a68a 
+Building C object CMakeFiles/cmTC_6c1d4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_6c1d4.dir/feature_tests.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6c1d4
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c1d4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6c1d4.dir/feature_tests.c.o  -o cmTC_6c1d4 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -164,14 +164,14 @@ make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2a601/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2a601.dir/build.make CMakeFiles/cmTC_2a601.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ef3be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef3be.dir/build.make CMakeFiles/cmTC_ef3be.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2a601.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_2a601.dir/feature_tests.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2a601
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a601.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_2a601.dir/feature_tests.c.o  -o cmTC_2a601 
+Building C object CMakeFiles/cmTC_ef3be.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ef3be.dir/feature_tests.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ef3be
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef3be.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ef3be.dir/feature_tests.c.o  -o cmTC_ef3be 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -184,14 +184,14 @@ make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6292/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6292.dir/build.make CMakeFiles/cmTC_b6292.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_17e40/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17e40.dir/build.make CMakeFiles/cmTC_17e40.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b6292.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_b6292.dir/feature_tests.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b6292
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6292.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b6292.dir/feature_tests.c.o  -o cmTC_b6292 
+Building C object CMakeFiles/cmTC_17e40.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_17e40.dir/feature_tests.c.o   -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_17e40
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e40.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_17e40.dir/feature_tests.c.o  -o cmTC_17e40 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -202,39 +202,40 @@ make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34f74/fast"
-/usr/bin/make -f CMakeFiles/cmTC_34f74.dir/build.make CMakeFiles/cmTC_34f74.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cd13d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd13d.dir/build.make CMakeFiles/cmTC_cd13d.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_34f74.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_34f74.dir/testCXXCompiler.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_34f74
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f74.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_34f74.dir/testCXXCompiler.cxx.o  -o cmTC_34f74 
+Building CXX object CMakeFiles/cmTC_cd13d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_cd13d.dir/testCXXCompiler.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cd13d
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd13d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cd13d.dir/testCXXCompiler.cxx.o  -o cmTC_cd13d 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8cc1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8cc1.dir/build.make CMakeFiles/cmTC_a8cc1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a8fff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8fff.dir/build.make CMakeFiles/cmTC_a8fff.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a8cc1
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8cc1.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8cc1 
-Using built-in specs.
+Building CXX object CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a8fff
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8fff.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8fff 
+使用内建 specs。
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
-Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8cc1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctbC03o.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a8cc1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper
+目标：x86_64-pc-linux-gnu
+配置为：../configure -enable-checking=release -enable-languages=c,c++ -disable-multilib
+线程模型：posix
+gcc 版本 7.4.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8fff' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLs26tS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a8fff /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../.. CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8fff' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -242,59 +243,53 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a8cc1/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a8cc1.dir/build.make CMakeFiles/cmTC_a8cc1.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a8fff/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a8fff.dir/build.make CMakeFiles/cmTC_a8fff.dir/build]
   ignore line: [make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a8cc1]
-  ignore line: [/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8cc1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8cc1 ]
-  ignore line: [Using built-in specs.]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o -c /home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a8fff]
+  ignore line: [/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8fff.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8fff ]
+  ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8cc1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctbC03o.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a8cc1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper]
+  ignore line: [目标：x86_64-pc-linux-gnu]
+  ignore line: [配置为：../configure -enable-checking=release -enable-languages=c,c++ -disable-multilib]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 7.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8fff' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLs26tS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a8fff /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../.. CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cctbC03o.res] ==> ignore
+    arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/7.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLs26tS.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/] ==> ignore
-    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a8cc1] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [cmTC_a8fff] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0]
+    arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_a8cc1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../..]
+    arg [CMakeFiles/cmTC_a8fff.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -302,18 +297,17 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+    arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0] ==> [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0]
+  collapse library dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../../../lib64] ==> [/usr/local/lib64]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0/../../..] ==> [/usr/local/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-pc-linux-gnu/7.4.0;/usr/local/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/usr/local/lib]
   implicit fwks: []
 
 
@@ -322,14 +316,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8cc41/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8cc41.dir/build.make CMakeFiles/cmTC_8cc41.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a79c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a79c9.dir/build.make CMakeFiles/cmTC_a79c9.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8cc41.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8cc41.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8cc41
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cc41.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8cc41.dir/feature_tests.cxx.o  -o cmTC_8cc41 
+Building CXX object CMakeFiles/cmTC_a79c9.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_a79c9.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a79c9
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a79c9.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a79c9.dir/feature_tests.cxx.o  -o cmTC_a79c9 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -395,14 +389,14 @@ make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c9054/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c9054.dir/build.make CMakeFiles/cmTC_c9054.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5aa17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5aa17.dir/build.make CMakeFiles/cmTC_5aa17.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c9054.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c9054.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c9054
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9054.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c9054.dir/feature_tests.cxx.o  -o cmTC_c9054 
+Building CXX object CMakeFiles/cmTC_5aa17.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_5aa17.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5aa17
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa17.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5aa17.dir/feature_tests.cxx.o  -o cmTC_5aa17 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -468,14 +462,14 @@ make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aad5b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aad5b.dir/build.make CMakeFiles/cmTC_aad5b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_973e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_973e4.dir/build.make CMakeFiles/cmTC_973e4.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aad5b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_aad5b.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_aad5b
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aad5b.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_aad5b.dir/feature_tests.cxx.o  -o cmTC_aad5b 
+Building CXX object CMakeFiles/cmTC_973e4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_973e4.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_973e4
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_973e4.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_973e4.dir/feature_tests.cxx.o  -o cmTC_973e4 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
@@ -541,14 +535,14 @@ make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4f7eb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4f7eb.dir/build.make CMakeFiles/cmTC_4f7eb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_476e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_476e0.dir/build.make CMakeFiles/cmTC_476e0.dir/build
 make[1]: Entering directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4f7eb.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_4f7eb.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4f7eb
-/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f7eb.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_4f7eb.dir/feature_tests.cxx.o  -o cmTC_4f7eb 
+Building CXX object CMakeFiles/cmTC_476e0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_476e0.dir/feature_tests.cxx.o -c /home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_476e0
+/home/zhou/anaconda3/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_476e0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_476e0.dir/feature_tests.cxx.o  -o cmTC_476e0 
 make[1]: Leaving directory '/home/zhou/codes/cg_games101/Assignment5/Code/build/CMakeFiles/CMakeTmp'
 
 
