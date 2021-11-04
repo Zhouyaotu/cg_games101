@@ -135,7 +135,7 @@ Vector3f castRay(
     }
 
     Vector3f hitColor = scene.backgroundColor;
-    if (auto payload = trace(orig, dir, scene.get_objects()); payload)
+    if (auto payload = trace(orig, dir, scene.get_objects()); payload) // trace for all obj
     {
         Vector3f hitPoint = orig + dir * payload->tNear;
         Vector3f N; // normal
