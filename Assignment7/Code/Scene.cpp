@@ -61,10 +61,12 @@ bool Scene::trace(
 Vector3f Scene::castRay(const Ray &ray, int depth) const
 {
     // TO DO Implement Path Tracing Algorithm here
-    Vector3f L_dir = 0;
+    Vector3f L_dir = {0, 0, 0};
+
     Vector3f wo = normalize(-ray.direction);
     Intersection p = Scene::intersect(ray);
     Vector3f pN = normalize(p.normal);
+
     if(!p.happened)
     {
         return L_dir;
@@ -73,30 +75,32 @@ Vector3f Scene::castRay(const Ray &ray, int depth) const
     {
         return p.m->getEmission();
     }
+
     Intersection lightSamplePos;
-    float pdf_light;
-    sampleLight(lightSamplePos,pdf_light);
-    Vector3f p2light = (lightSamplePos.coords-p.coords);
+    float pdf_light = 0;
+    sampleLight(lightSamplePos, pdf_light);
+    Vector3f p2light = lightSamplePos.coords - p.coords;
     Vector3f ws = normalize(p2light);
     Intersection touchLight = Scene::intersect(Ray(p.coords, ws));
-    
+
     if( touchLight.happened && touchLight.obj->hasEmit())
     {
         L_dir = lightSamplePos.emit * p.m->eval(wo, ws, pN)
-                 * dotProduct(ws, pN) * dotProduct(ws, normalize(lightSamplePos.normal)) 
-                 / dotProduct(p2light,p2light) / pdf_light;
+                 * dotProduct(ws, pN) * dotProduct(-ws, lightSamplePos.normal) 
+                 / dotProduct(p2light, p2light) / pdf_light;
     }
     
-    Vector3f L_indir = 0;
+    Vector3f L_indir = {0, 0, 0};
+
     float rr = get_random_float();
-    if(rr < RussianRoulette)
+    if(rr <= RussianRoulette)
     {
         Vector3f wi = normalize(p.m->sample(wo, pN));
-        Intersection touchObj = Scene::intersect(Ray(p.coords, ws));
-    
+
+        Intersection touchObj = Scene::intersect(Ray(p.coords, wi));
         if( touchObj.happened && !touchObj.obj->hasEmit())
         {
-            Vector3f wi = (touchObj.coords - p.coords).normalized();
+            //Vector3f wi = (touchObj.coords - p.coords).normalized();
             L_indir = castRay(Ray(p.coords, wi), 0) * p.m->eval(wo, wi, pN) * dotProduct(wi, pN) 
                         / p.m->pdf(wo, wi, pN) / RussianRoulette;
         }
